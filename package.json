@@ -1,0 +1,36 @@
+{
+  "name": "aplication",
+  "version": "1.0.0",
+  "description": "Aplication teste",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "secure-mode": "jest --watch --verbose=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esveraldo/aplication.git"
+  },
+  "author": "Esveraldo Martins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/esveraldo/aplication/issues"
+  },
+  "homepage": "https://github.com/esveraldo/aplication#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "consign": "^0.1.6",
+    "express": "^4.16.4",
+    "knex": "^0.16.3",
+    "mysql": "^2.16.0",
+    "pg": "^7.9.0"
+  },
+  "devDependencies": {
+    "jest": "^24.5.0",
+    "supertest": "^4.0.2"
+  }
+}
